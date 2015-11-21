@@ -1,0 +1,12 @@
+Home:     	http://ibobil.fantasylab.no
+brand:    	http://ibobil.fantasylab.no/brand
+about us: 	http://ibobil.fantasylab.no/about
+single_bobil:	http://ibobil.fantasylab.no/single_bobil
+category:	http://ibobil.fantasylab.no/category
+login:		http://ibobil.fantasylab.no/login
+single_category:http://ibobil.fantasylab.no/single_category
+admin_sider:	http://ibobil.fantasylab.no/admin_sider
+admin_bobiler:	http://ibobil.fantasylab.no/admin_bobiler
+admin_campingvogn: http://ibobil.fantasylab.no/admin_campingvogn
+admin_innstillinger:  http://ibobil.fantasylab.no/admin_innstillinger
+rediger_side:	http://ibobil.fantasylab.no/rediger_side

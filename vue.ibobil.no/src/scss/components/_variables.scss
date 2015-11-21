@@ -1,0 +1,253 @@
+$body-bg: #fff !default;
+
+$fa-font-path:        "../fonts/Font-Awesome" !default;
+
+$font-family-helvetica-neue:  "Roboto-Medium" !default;
+$font-family-base:        $font-family-helvetica-neue !default;
+$font-size-base:          16px !default;
+
+
+$grid-gutter-width: 20px !default;
+//$container-desktop: (992px + $grid-gutter-width) !default;
+//$container-large-desktop:      (1420px + $grid-gutter-width) !default;
+// $container-large-desktop:      (1200px + $grid-gutter-width) !default;
+
+//$top-line-height: 35px;
+
+//$component-active-color:    transparent !default;
+
+
+$gray-base:              #717275 !default;
+$gray-base-light:		 #f1f1f1;
+$gray-light: 			 #d1d1d1;
+$gray-darker:            lighten($gray-base, 13.5%) !default; // #222
+$gray-dark:              lighten($gray-base, 20%) !default;   // #333
+$gray:                   lighten($gray-base, 33.5%) !default; // #555
+$gray-light:             lighten($gray-base, 46.7%) !default; // #777
+$gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
+
+$text-color:            $gray-base !default;
+
+$brand-red:				#ed1c24;
+$brand-white:           #eae3e3;
+
+
+// Basics of a navbar
+$navbar-height:                    50px !default;
+// $navbar-margin-bottom:             $line-height-computed !default;
+// $navbar-border-radius:             $border-radius-base !default;
+// $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
+// $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2) !default;
+// $navbar-collapse-max-height:       340px !default;
+
+$navbar-default-color:             #777 !default;
+$navbar-default-bg:                #fff !default;
+//$navbar-default-border:            darken($navbar-default-bg, 6.5%) !default;
+$navbar-default-border:				#d6d6d6 !default;
+
+// Navbar links
+$navbar-default-link-color:                #777 !default;
+$navbar-default-link-hover-color:          #333 !default;
+$navbar-default-link-hover-bg:             transparent !default;
+$navbar-default-link-active-color:         #555 !default;
+$navbar-default-link-active-bg:            #fff !default;
+$navbar-default-link-disabled-color:       #ccc !default;
+$navbar-default-link-disabled-bg:          transparent !default;
+
+// Navbar brand label
+$navbar-default-brand-color:               $navbar-default-link-color !default;
+$navbar-default-brand-hover-color:         darken($navbar-default-brand-color, 10%) !default;
+$navbar-default-brand-hover-bg:            transparent !default;
+
+// Navbar toggle
+$navbar-default-toggle-hover-bg:           #fff !default;
+$navbar-default-toggle-icon-bar-bg:        #888 !default;
+// $navbar-default-toggle-border-color:       transparent !default;
+
+
+//== Buttons
+//
+//## For each of Bootstrap's buttons, define text, background and border color.
+
+$btn-font-weight:                normal !default;
+
+$btn-default-color:              #fff !default;
+$btn-default-bg:                 $brand-red !default;
+$btn-default-border:             $brand-red !default;
+
+$btn-primary-color:              #fff !default;
+$btn-primary-bg:                 $btn-default-bg !default;
+$btn-primary-border:             darken($btn-primary-bg, 5%) !default;
+
+// $btn-success-color:              #fff !default;
+// $btn-success-bg:                 $brand-success !default;
+// $btn-success-border:             darken($btn-success-bg, 5%) !default;
+
+// $btn-info-color:                 #fff !default;
+// $btn-info-bg:                    $brand-info !default;
+// $btn-info-border:                darken($btn-info-bg, 5%) !default;
+
+// $btn-warning-color:              #fff !default;
+// $btn-warning-bg:                 $brand-warning !default;
+// $btn-warning-border:             darken($btn-warning-bg, 5%) !default;
+
+// $btn-danger-color:               #fff !default;
+// $btn-danger-bg:                  $brand-danger !default;
+// $btn-danger-border:              darken($btn-danger-bg, 5%) !default;
+
+$btn-link-disabled-color:        $gray-light !default;
+
+// Allows for customizing button radius independently from global border radius
+$btn-border-radius-base:         0px !default;
+// $btn-border-radius-large:        $border-radius-large !default;
+// $btn-border-radius-small:        $border-radius-small !default;
+
+
+
+
+
+//== Media queries breakpoints
+//
+//## Define the breakpoints at which your layout will change, adapting to different screen sizes.
+
+// Extra small screen / phone
+//** Deprecated `$screen-xs` as of v3.0.1
+$screen-xs:                  480px !default;
+//** Deprecated `$screen-xs-min` as of v3.2.0
+$screen-xs-min:              $screen-xs !default;
+//** Deprecated `$screen-phone` as of v3.0.1
+$screen-phone:               $screen-xs-min !default;
+
+// Small screen / tablet
+//** Deprecated `$screen-sm` as of v3.0.1
+$screen-sm:                  768px !default;
+$screen-sm-min:              $screen-sm !default;
+//** Deprecated `$screen-tablet` as of v3.0.1
+$screen-tablet:              $screen-sm-min !default;
+
+// Medium screen / desktop
+//** Deprecated `$screen-md` as of v3.0.1
+$screen-md:                  992px !default;
+$screen-md-min:              $screen-md !default;
+//** Deprecated `$screen-desktop` as of v3.0.1
+$screen-desktop:             $screen-md-min !default;
+
+// Large screen / wide desktop
+//** Deprecated `$screen-lg` as of v3.0.1
+$screen-lg:                  1200px !default;
+$screen-lg-min:              $screen-lg !default;
+//** Deprecated `$screen-lg-desktop` as of v3.0.1
+$screen-lg-desktop:          $screen-lg-min !default;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max:              ($screen-sm-min - 1) !default;
+$screen-sm-max:              ($screen-md-min - 1) !default;
+$screen-md-max:              ($screen-lg-min - 1) !default;
+
+//== Grid system
+//
+//## Define your custom responsive grid.
+
+//** Number of columns in the grid.
+$grid-columns:              12 !default;
+//** Padding between columns. Gets divided in half for the left and right.
+$grid-gutter-width:         30px !default;
+// Navbar collapse
+//** Point at which the navbar becomes uncollapsed.
+$grid-float-breakpoint:     $screen-sm-min !default;
+//** Point at which the navbar begins collapsing.
+$grid-float-breakpoint-max: ($grid-float-breakpoint - 1) !default;
+
+
+//== Container sizes
+//
+//## Define the maximum width of `.container` for different screen sizes.
+
+// Small screen / tablet
+$container-tablet:             (720px + $grid-gutter-width) !default;
+//** For `$screen-sm-min` and up.
+$container-sm:                 $container-tablet !default;
+
+// Medium screen / desktop
+$container-desktop:            (940px + $grid-gutter-width) !default;
+//** For `$screen-md-min` and up.
+$container-md:                 $container-desktop !default;
+
+// Large screen / wide desktop
+$container-large-desktop:      (1140px + $grid-gutter-width) !default;
+// $container-large-desktop:      (1346px + $grid-gutter-width) !default;
+//** For `$screen-lg-min` and up.
+$container-lg:                 $container-large-desktop !default;
+
+
+//== Breadcrumbs
+//
+//##
+
+$breadcrumb-padding-vertical:   8px !default;
+$breadcrumb-padding-horizontal: 8px !default;
+//** Breadcrumb background color
+$breadcrumb-bg:                 #f2f2f2 !default;
+//** Breadcrumb text color
+$breadcrumb-color:              #717275 !default;
+//** Text color of current page in the breadcrumb
+$breadcrumb-active-color:       #272727 !default;
+//** Textual separator for between breadcrumb elements
+$breadcrumb-separator:          "\F105" !default;
+
+
+//== Carousel
+//
+//##
+
+$carousel-text-shadow:                        0 1px 2px rgba(0,0,0,.6) !default;
+
+$carousel-control-color:                      #fff !default;
+$carousel-control-width:                      15% !default;
+$carousel-control-opacity:                    .5 !default;
+$carousel-control-font-size:                  20px !default;
+
+$carousel-indicator-active-bg:                #fff !default;
+$carousel-indicator-border-color:             #fff !default;
+
+$carousel-caption-color:                      #fff !default;
+
+
+
+$input-color:                    #3d3d3d !default;
+$input-border:                   #999a9d !default;
+$input-border-radius:            1px !default;
+
+$input-border-focus:             #717275 !default;
+
+//== Dropdowns
+$dropdown-border:                #999a9d !default;
+
+$dropdown-caret-control: 		 #717275 !default;
+
+//== Panels
+//
+//##
+$panel-default-border:        $gray-base !default;
+$panel-default-heading-bg:    #353232 !default;
+
+// == Iconography
+$icon-font-path: "../fonts/bootstrap/" !default;
+
+//** File name for all font files.
+$icon-font-name:          "glyphicons-halflings-regular" !default;
+//** Element ID within SVG icon file.
+$icon-font-svg-id:        "glyphicons_halflingsregular" !default;
+
+
+
+
+//== Modals
+//
+//##
+
+//** Padding applied to the modal body
+$modal-inner-padding:         30px !default;
+
+//** Modal content border color
+$modal-content-border-color:                   $gray-light !default;
